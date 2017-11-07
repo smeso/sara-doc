@@ -225,10 +225,25 @@ latex_documents = [
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
+#man_pages = [
+    #('README', 'sara', u'S.A.R.A. Documentation',
+    #[u'Salvatore Mesoraca'], 1)
+#]
 man_pages = [
-    ('README', 'sara', u'S.A.R.A. Documentation',
-    [u'Salvatore Mesoraca'], 1)
+    ('manpages/sara', 'sara', u'S.A.R.A. LSM.',
+    [u'Salvatore Mesoraca'], 7),
+    ('manpages/saractl', 'saractl', u'S.A.R.A.\'s userspace utilities.',
+    [u'Salvatore Mesoraca'], 8),
+    ('manpages/wxprot.conf', 'wxprot.conf', u'S.A.R.A.\'s WX Protections configurations.',
+    [u'Salvatore Mesoraca'], 5),
+    ('manpages/sara-xattr', 'sara-xattr', u'S.A.R.A. LSM\'s extended attributes.',
+    [u'Salvatore Mesoraca'], 8),
+    ('manpages/sara-test', 'sara-test', u'S.A.R.A.\'s test suite.',
+    [u'Salvatore Mesoraca'], 1),
+    ('manpages/sara.h', 'sara.h', u'S.A.R.A.\'s helper library.',
+    [u'Salvatore Mesoraca'], 3)
 ]
+
 
 # If true, show URL addresses after external links.
 #man_show_urls = False
