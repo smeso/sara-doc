@@ -38,7 +38,7 @@ and install it by simply running:
 
 	$ python3 setup.py install
 
-You we'll need at least Python 3.3.
+You we'll need at least Python 3.4.
 Some saractl's functionalities depend on ``pyelftools``, ``pythonprctl``
 and ``pyxattr``. You may want to install them too, but they are optional.
 Alternatively you can download the sources tarball from `here
