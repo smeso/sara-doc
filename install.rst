@@ -6,6 +6,21 @@ you'll need to use a patched kernel image or patch the kernel yourself.
 
 -------------------------------------------------------------------------------
 
+Ubuntu (trusty)
+===============
+
+.. code-block:: bash
+
+	$ sudo add-apt-repository ppa:smeso/sara
+	$ sudo apt-get update
+	$ sudo apt-get install linux-image-generic-lts-xenial-sara	# the kernel image
+	$ sudo apt-get install python3-pyxattr				# enable xattr support in saractl
+	$ sudo apt-get install python3-pyelftools			# enable some runtime checks in saractl
+	$ sudo apt-get install python3-prctl				# enable better privilege checks in saractl
+	$ sudo apt-get install saractl					# userspace tools
+	$ sudo apt-get install sara-test				# the test suite (optional)
+	$ sudo apt-get install libsara					# procattr library (optional)
+
 Generic Instructions
 ====================
 
