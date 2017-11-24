@@ -40,7 +40,7 @@ source_suffix = '.rst'
 #source_encoding = 'utf-8-sig'
 
 # The master toctree document.
-master_doc = 'README'
+master_doc = 'index'
 
 # General information about the project.
 project = u'S.A.R.A.'
@@ -196,7 +196,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('README', 'sara.tex', u'S.A.R.A. Documentation',
+  ('index', 'sara.tex', u'S.A.R.A. Documentation',
    u'Salvatore Mesoraca', 'manual'),
 ]
 
@@ -226,7 +226,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 #man_pages = [
-    #('README', 'sara', u'S.A.R.A. Documentation',
+    #('index', 'sara', u'S.A.R.A. Documentation',
     #[u'Salvatore Mesoraca'], 1)
 #]
 man_pages = [
@@ -255,7 +255,7 @@ man_show_urls = True
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('README', 'sara', u'S.A.R.A. Documentation',
+  ('index', 'sara', u'S.A.R.A. Documentation',
    u'Salvatore Mesoraca', 'sara', 'One line description of project.',
    'Miscellaneous'),
 ]
