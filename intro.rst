@@ -75,6 +75,8 @@ behaviours that make life much more easy for attackers. Programs running with
 this feature enabled will be more difficult to exploit in the case they are
 affected by some vulnerabilities, because the attacker will be forced
 to make more steps in order to exploit them.
+This feature also blocks accesses to /proc/*/mem files that would allow to
+write the current process read-only memory, bypassing any protection.
 
 W!->X (once writable never executable) mprotect restriction
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
